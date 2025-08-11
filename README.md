@@ -10,10 +10,11 @@ Demo Dick Digitizer is a tool for creating torrent files from local organized st
 
 ## Usage
 
-1. Run `database_maker.py` to set up the initial database.
-2. Copy .env.example to .env and configure with your API_URL and API_TOKEN from stashapp
-3. Run `import_organized.py` to import your organized stashapp files.
-4. Run `torrent_maker.py` to create torrent files from your imported stashapp files.
+1. Set up your database with `database_maker.py`.
+2. Configure your API credentials in the `.env` file.
+3. Import your organized stashapp files with `import_organized.py`.
+4. Add tracker urls into the "tracker-list" table inside the torrent_maker.db
+5. Generate torrent files with `torrent_maker.py`.
 
 ## In Progress
 
