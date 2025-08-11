@@ -1,0 +1,5 @@
+requests
+math
+sqlite3
+libtorrent
+dotenv
